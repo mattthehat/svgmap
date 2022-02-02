@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #4681BA;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: grid;
+    place-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.county {
+    fill: #0F2519;
+}
+
+.active {
+    fill: red
+}
+
+.tooltip {
+    position: fixed;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.8);
+    display: block;
+    padding: 12px;
+    border-radius: 7px;
+    z-index: 2;
+    box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+.attribution {
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    width: 190px;
+    padding: 7px;
+    border-radius: 7px;
+    color:#fff;
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    text-decoration: none;
+}
